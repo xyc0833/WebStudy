@@ -1,0 +1,33 @@
+body {
+    text-align: center;
+    /*它的优先级会被置为最高*/
+    color: crimson !important;
+}
+input {
+    width: 200px;
+    font-size: 20px;
+    line-height: 40px;
+}
+#title {
+    color: red!important;
+}
+
+.test,#title{
+    color: blue!important;
+}
+
+div label {
+    color: red!important;
+}
+
+/*.test {*/
+/*    color: yellow;*/
+/*}*/
+
+/*#simple {*/
+/*    color: red;*/
+/*}*/
+
+/** {*/
+/*    color: palegreen;*/
+/*}*/

@@ -1,0 +1,14 @@
+#outer {
+    background: palegreen;
+    width: 300px;
+    height: 300px;
+    padding: 10px;
+}
+body {
+    margin: 0;
+}
+#inner {
+    background: darkorange;
+    width: 50%;
+    height: 50%;
+}
