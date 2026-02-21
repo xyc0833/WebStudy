@@ -174,4 +174,8 @@ obj.f = function (){
 
 obj.f()
 
+// let xhr = new XMLHttpRequest();
+// xhr.open('GET', 'https://www.baidu.com');
+// xhr.send();
+
 

@@ -7,3 +7,9 @@ function checkIllegal(e) {
         e.removeAttribute("class")
     }
 }
+
+function http() {
+    let xhr = new XMLHttpRequest();
+    xhr.open('GET', 'https://www.baidu.com');
+    xhr.send();
+}
